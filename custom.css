@@ -1,0 +1,41 @@
+figure {
+  height: 15em;
+  width: 15em;
+  object-fit: contian;
+  overflow: hidden;
+}
+
+.card-panel {
+  width: 30vw;
+  margin: 0.75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 0.25em;
+}
+h5 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1em;
+}
