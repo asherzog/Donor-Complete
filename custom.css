@@ -1,17 +1,21 @@
 figure {
-  height: 15em;
-  width: 15em;
+  height: 28vh;
+  width: 16vw;
   object-fit: contian;
   overflow: hidden;
 }
 
 .card-panel {
   width: 30vw;
-  margin: 0.75em;
+  margin: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5em;
+  margin-top: 2.5em;
 }
+
 
 section {
   display: flex;
