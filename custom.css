@@ -1,3 +1,31 @@
+ header div img {
+  width: 100vw;
+}
+
+ .opa {
+  width: 100vw;
+  background: #fff;
+  opacity: 0.5;
+}
+
+.input-field label {
+     color: #fff;
+   }
+
+.input-field input[type=text]:focus + label {
+    color: #fff;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+  }
+
+  .parallax-container {
+      height: 75vh;
+    }
+
+
 figure {
   height: 28vh;
   width: 16vw;
@@ -17,7 +45,7 @@ figure {
 }
 
 
-section {
+.main {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -42,4 +70,17 @@ h4 {
 
 p {
   font-size: 1em;
+}
+
+.myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+}
+.myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: green;
 }
