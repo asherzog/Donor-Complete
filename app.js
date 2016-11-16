@@ -5,14 +5,12 @@ $(document).ready(function() {
   $('.parallax').parallax();
 
 
-
-
 });
 
 
 function appendPage(data) {
   var $proposals = data["proposals"];
-  $('.main').append('<div id="main" class="row grey lighten-1"></div>');
+  $('.main').append('<div id="main" class="row"></div>');
   $proposals.forEach(addStuffToPage);
 
   $('.more').click(moreInfo);
