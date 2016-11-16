@@ -41,24 +41,28 @@ figure {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2.5em;
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 
 
-.main {
+.main,
+.search,
+.extra, {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-#main {
+#main,
+#new,
+#extra {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   margin-right: 0.25em;
 }
+
 h5 {
   font-size: 2em;
   font-weight: 600;

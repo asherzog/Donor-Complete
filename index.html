@@ -10,17 +10,17 @@
     <script src="app.js"></script>
     <link rel="stylesheet" href="custom.css">
   </head>
-  <body class="grey lighten-4">
+  <body>
     <header class>
       <div class="navbar-fixed">
         <nav>
-          <div class="nav-wrapper grey lighten-4">
+          <div class="nav-wrapper grey lighten-4 hoverable">
             <a href="#!" id="logo" class="brand-logo center green-text text-darken-2">DonorsComplete</a>
             <form class="left col s6">
               <div class="input-field white">
                 <input id="search" type="search" placeholder="City Search" class="validate green darken-2 white-text">
                 <label for="search"><i class="material-icons">search</i></label>
-                <i class="material-icons">close</i>
+                <i class="material-icons" id="close">close</i>
               </div>
             </form>
           </div>
@@ -31,15 +31,24 @@
       <div class="parallax"><img src="http://news.directv.com/wp-content/uploads/2013/06/img_blog_donors_choose.jpg" /></div>
     </div>
     <section class="card col l12 hoverable">
-
+      <blockquote>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+      <blockquote>
     </section>
     <div class="parallax-container">
-      <div class="parallax"><img src="http://media.gettyimages.com/videos/portrait-of-happy-students-leaning-on-railing-waving-in-school-video-id456041898?s=640x640" /></div>
+      <div class="parallax"><img id="parallax" src="http://media.gettyimages.com/videos/portrait-of-happy-students-leaning-on-railing-waving-in-school-video-id456041898?s=640x640" /></div>
     </div>
     <section class="main">
+      <div id="main" class="row">
+      </div>
     </section>
-    <div class="parallax-container">
-      <div class="parallax"><img src="http://i.huffpost.com/gen/1331818/images/o-ELEMENTARY-SCHOOL-TEACHER-facebook.jpg" /></div>
+    <section class="search" style="display: none">
+    </section>
+    <div class="parallax-container center">
+      <div class="parallax">
+        <img src="http://i.huffpost.com/gen/1331818/images/o-ELEMENTARY-SCHOOL-TEACHER-facebook.jpg" />
+      </div>
     </div>
     <section class="extra">
     </section>
