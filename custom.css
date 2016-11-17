@@ -1,3 +1,10 @@
+html {
+  line-height: 1.5em;
+}
+
+.brand-logo {
+  font-family: 'Droid Serif', serif;
+}
 
 #logo {
   font-size: 3.5em;
@@ -10,21 +17,22 @@
   opacity: 0.5;
 }
 
-blockquote b {
-  text-indent: 4em;
-}
 
   .parallax-container {
       height: 75vh;
     }
 
 blockquote {
-  margin: 2em;
+  margin: 0 2em;
   font-size: 1.5em;
   font-style: italic;
   text-indent: 2em;
 }
 
+blockquote p {
+  padding: 2em 0;
+  font-style: italic;
+}
 
 
 figure {
@@ -42,6 +50,11 @@ figure {
   justify-content: space-between;
   align-items: center;
   margin-top: 2em;
+  padding: 0.5em;
+}
+
+.btn {
+  margin-bottom: 1rem;
 }
 
 
@@ -63,14 +76,20 @@ figure {
   margin-right: 0.25em;
 }
 
+#retina {
+  max-width: 28vw;
+}
+
 h5 {
   font-size: 2em;
   font-weight: 600;
+  margin: 0.4rem 0 0.3rem 0;
 }
 
 h4 {
   font-size: 3em;
   font-weight: 600;
+  margin: 0rem 0 0rem 0;
 }
 
 h1 {
@@ -82,8 +101,56 @@ p {
   font-size: 1em;
 }
 
+.load-more {
+  margin-left: 45vw;
+  margin-bottom: 2em;
+}
 
 .intro {
   font-size: 1.75em;
   padding: 1em;
 }
+
+@media only screen and (min-width : 1300px) {
+  .card-panel {
+    width: 22vw;
+  }
+  .load-more {
+    margin-left: 48vw;
+  }
+  #retina {
+    max-width: 20vw;
+  }
+}
+
+
+@media only screen and (max-width : 992px) {
+  .card-panel {
+    width: 40vw;
+  }
+  #retina {
+    max-width: 38vw;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .card-panel {
+    width: 100vw;
+  }
+
+  #retina {
+    max-width: 98vw;
+  }
+
+  .load-more {
+    margin-left: 42vw;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  form {
+    margin-left: 25vw;
+  }
+ }
