@@ -78,7 +78,7 @@ function addCardsToElement(selector, item) {
     $(itemId).append('<h6 class="new' + id + '" style="display: none">Poverty: ' + info['povertyLevel'] + '</h6>');
     $(itemId).append('<h6 class="new' + id + '" style="display: none"> Subject: ' + info['subject']['name'] + '</h6>');
     $(itemId).append('<h6 class="new' + id + '" style="display: none">Type: ' + info['resource']['name'] + '</h6>');
-    $(itemId).append('<a class="new' + id + ' btn grey darken-2 hoverable" href=' + info['proposalURL'] + ' style="display: none; margin-bottom: 1em;">Project Page</a>');
+    $(itemId).append('<a class="new' + id + ' btn grey darken-2 hoverable" href=' + info['proposalURL'] + ' style="display: none; margin-bottom: 1em;">Readme</a>');
     $(itemId).append('<a class="new' + id + ' btn-large green darken-2 hoverable" href=' + info['fundURL'] + ' style="display: none; margin-bottom: 1em;">DONATE</a>');
     $(itemId).append('<img id="retina" class= new' + id + ' src=' + info['retinaImageURL'] + ' style="display: none;">');
   });
