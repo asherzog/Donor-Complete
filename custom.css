@@ -18,9 +18,10 @@ html {
 }
 
 
-  .parallax-container {
-      height: 75vh;
-    }
+img {
+  width: 100vw;
+}
+
 
 blockquote {
   margin: 0 2em;

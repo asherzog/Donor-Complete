@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $.getJSON(API +'costToCompleteRange=0+TO+100&sortBy=2&description=true&concise=true&max=12&APIKey=DONORSCHOOSE',
   appendPage);
-  $('.parallax').parallax();
+  // $('.parallax').parallax();
   $('form').submit(citySearch);
   $('#close').click(resetPage);
   $('.brand-logo').click(resetPage);
